@@ -86,7 +86,7 @@ The data shows we have a large disparity between ratings 5.0 and the rest of the
 
 ![](https://github.com/ttam37/dsc-capstone-project-v2-onl01-dtsc-ft-052620/blob/master/images/count_of_user_rating_undersampled.png)
 
-Predictive Accuracy
+## Predictive Accuracy
 
 
 
