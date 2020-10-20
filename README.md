@@ -69,7 +69,7 @@ For each item scraped, I scraped several pages of reviews that include the numbe
 
 ![](https://github.com/ttam37/dsc-capstone-project-v2-onl01-dtsc-ft-052620/blob/master/images/bar_plot_most_common_words_in_reviews.png)
 
-![](https://github.com/ttam37/dsc-capstone-project-v2-onl01-dtsc-ft-052620/blob/master/images/wordcloud_most_common_words_in_reviews.png.png)
+![](https://github.com/ttam37/dsc-capstone-project-v2-onl01-dtsc-ft-052620/blob/master/images/wordcloud_most_common_words_in_reviews.png)
 
 ![](https://github.com/ttam37/dsc-capstone-project-v2-onl01-dtsc-ft-052620/blob/master/images/bar_plot_most_common_bigrams_in_reviews.png)
 
