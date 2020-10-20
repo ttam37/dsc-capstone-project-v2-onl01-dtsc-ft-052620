@@ -80,18 +80,13 @@ For each item scraped, I scraped several pages of reviews that include the numbe
 
 # Modeling
 
+## Class Imbalance
+
+The data shows we have a large disparity between ratings 5.0 and the rest of the ratings. This is a problem because of one class having more weight than the others which lead to poor predictive performance. To resolve this issue, I undersampled each class by using 250 samples from each class.
+
 ![](https://github.com/ttam37/dsc-capstone-project-v2-onl01-dtsc-ft-052620/blob/master/images/count_of_user_rating_undersampled.png)
 
-
-
-
-# Final Results
-
-The algorithm that gave me the best results is SVDpp, but because the test time was very large I instead made predictions using BaselineOnly algorithm. I created a personal user and based on the ratings, the model will recommended the highest rated movies (example below).
-
-![](https://github.com/ttam37/dsc-mod-4-project-v2-1-onl01-dtsc-ft-052620/blob/master/images/algorithm_best_rmse.png)
-![](https://github.com/ttam37/dsc-mod-4-project-v2-1-onl01-dtsc-ft-052620/blob/master/images/example_recommendations_baselineonly.png)
-
+Predictive Accuracy
 
 
 
