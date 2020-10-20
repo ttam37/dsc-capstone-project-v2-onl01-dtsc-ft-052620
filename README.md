@@ -56,9 +56,9 @@ For search query 'board games' on Amazon, I scraped all item information from ea
 **Review Example**
 For each item scraped, I scraped several pages of reviews that include the number of stars, review title, and review description.
 
-![](https://github.com/ttam37/dsc-capstone-project-v2-onl01-dtsc-ft-052620/blob/master/images/example_review_screenshot.jpg)
+![](https://github.com/ttam37/dsc-capstone-project-v2-onl01-dtsc-ft-052620/blob/master/images/example_review_screenshot.png)
 
-![](https://github.com/ttam37/dsc-capstone-project-v2-onl01-dtsc-ft-052620/blob/master/images/reviews_dataframe_screenshot.jpg)
+![](https://github.com/ttam37/dsc-capstone-project-v2-onl01-dtsc-ft-052620/blob/master/images/reviews_dataframe_screenshot.png)
 
 
 # Exploratory Data Analysis
