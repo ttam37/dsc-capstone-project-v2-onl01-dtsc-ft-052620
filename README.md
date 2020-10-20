@@ -2,16 +2,19 @@
 
 ![](https://github.com/ttam37/dsc-capstone-project-v2-onl01-dtsc-ft-052620/blob/master/images/Amazon-5-Star-Review-Illustration.jpg)
 
-I will be using Natural Language Processing (NLP) to perform sentiment analysis on reviews from Amazon, specifically from board games items. Because I enjoy playing board games, I figured it'll be interesting to incorporate something I enjoy with data science. As people are now showing their emotions through text data, sentiment analysis is becoming important for business as they can understand their customers better and see how well their products are performing. 
-
-Amazon reviews provide objective feedback to a product summarized by the number of stars along with a review description. The number of stars is important as it tells us how well the product is doing and how the consumer feels about the product, but more importantly the value of the rating comes from the text in the review description. The goal of this project is to analyze and understand the underlying value of the text data by building a classification model that best predicts the most appropriate number of stars for each review.
-
-In order to perform sentiment analysis, we need to understand the human language by analyzing text data. Though it is easy for humans to interpret the human language, there are limitations for computers when it comes to understanding human emotion such as sarcasm and irony. Fortunately Python contains libraries that help with NLP in which we will dive into for this project. By using sentiment analysis, I have created a model that best predicts a binary value of either good or bad for each Amazon review. In my model, reviews of 4-5 stars are classified as 'GOOD' reviews and 1-3 stars are classified as 'BAD' reviews. We will also explore how the model takes into account the importance of unigrams and bigrams and how it affects model performance.
+I will be using Natural Language Processing (NLP) to perform sentiment analysis on reviews from Amazon, specifically from board games items. Because I enjoy playing board games, I figured it'll be interesting to incorporate something I enjoy with data science. As people are now showing their emotions through text data, sentiment analysis is becoming important for business as they can understand their customers better and see how well their products are performing.
 
 **Results**
 
 
 ![](https://github.com/ttam37/dsc-mod-4-project-v2-1-onl01-dtsc-ft-052620/blob/master/images/Content-based-filtering-vs-Collaborative-filtering-Source.png)
+
+# Executive Summary
+
+Amazon reviews provide objective feedback to a product summarized by the number of stars along with a review description. The number of stars is important as it tells us how well the product is doing and how the consumer feels about the product, but more importantly the value of the rating comes from the text in the review description. The goal of this project is to analyze and understand the underlying value of the text data by building a classification model that best predicts the most appropriate number of stars for each review.
+
+In order to perform sentiment analysis, we need to understand the human language by analyzing text data. Though it is easy for humans to interpret the human language, there are limitations for computers when it comes to understanding human emotion such as sarcasm and irony. Fortunately Python contains libraries that help with NLP in which we will dive into for this project. By using sentiment analysis, I have created a model that best predicts a binary value of either good or bad for each Amazon review. In my model, reviews of 4-5 stars are classified as 'GOOD' reviews and 1-3 stars are classified as 'BAD' reviews. We will also explore how the model takes into account the importance of unigrams and bigrams and how it affects model performance.
+
 
 # File Description
 
