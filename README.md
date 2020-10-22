@@ -1,12 +1,12 @@
 # Sentiment Analysis on Amazon Reviews
+README still work in progress!
 
 ![](https://github.com/ttam37/dsc-capstone-project-v2-onl01-dtsc-ft-052620/blob/master/images/Amazon-5-Star-Review-Illustration.jpg)
 
 I will be using Natural Language Processing (NLP) to perform sentiment analysis on reviews from Amazon, specifically from board games items. Because I enjoy playing board games, I figured it'll be interesting to incorporate something I enjoy with data science. As people are now showing their emotions through text data, sentiment analysis is becoming important for business as they can understand their customers better and see how well their products are performing. For this project, I have implemented different algorithms and the goal is to find which algorithm best predicts the most appropriate number of stars for each review.
 
-**Results**
 
-![](https://github.com/ttam37/dsc-mod-4-project-v2-1-onl01-dtsc-ft-052620/blob/master/images/Content-based-filtering-vs-Collaborative-filtering-Source.png)
+
 
 # Executive Summary
 
@@ -86,7 +86,7 @@ The data shows we have a large disparity between ratings 5.0 and the rest of the
 
 ![](https://github.com/ttam37/dsc-capstone-project-v2-onl01-dtsc-ft-052620/blob/master/images/count_of_user_rating_undersampled.png)
 
-## Predictive Accuracy
+## Predictive Accuracy Results
 
 
 
