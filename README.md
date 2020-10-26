@@ -71,8 +71,6 @@ For each item scraped, I scraped several pages of reviews that include the numbe
 
 ![](https://github.com/ttam37/dsc-capstone-project-v2-onl01-dtsc-ft-052620/blob/master/images/bar_plot_most_common_words_in_reviews.png)
 
-![](https://github.com/ttam37/dsc-capstone-project-v2-onl01-dtsc-ft-052620/blob/master/images/wordcloud_most_common_words_in_reviews.png)
-
 ![](https://github.com/ttam37/dsc-capstone-project-v2-onl01-dtsc-ft-052620/blob/master/images/bar_plot_most_common_bigrams_in_reviews.png)
 
 ![](https://github.com/ttam37/dsc-capstone-project-v2-onl01-dtsc-ft-052620/blob/master/images/bar_plot_most_common_positive_negative_words_in_reviews.png)
@@ -82,11 +80,15 @@ For each item scraped, I scraped several pages of reviews that include the numbe
 
 ## Class Imbalance
 
-The data shows we have a large disparity between ratings 5.0 and the rest of the ratings. This is a problem because of one class having more weight than the others which lead to poor predictive performance. To resolve this issue, I undersampled each class by using 250 samples from each class.
+The data shows we have a large disparity between ratings 5.0 and the rest of the ratings. This is a problem because of one class having more weight than the others which lead to poor predictive performance. To resolve this issue, I undersampled each class by using 1200 samples from each class.
 
 ![](https://github.com/ttam37/dsc-capstone-project-v2-onl01-dtsc-ft-052620/blob/master/images/count_of_user_rating_undersampled.png)
 
 ## Predictive Accuracy Results
+
+![](https://github.com/ttam37/dsc-capstone-project-v2-onl01-dtsc-ft-052620/blob/master/images/df_predictive_accuracy_results.png)
+
+![](https://github.com/ttam37/dsc-capstone-project-v2-onl01-dtsc-ft-052620/blob/master/images/plot_predictive_accuracy_results.png)
 
 
 
