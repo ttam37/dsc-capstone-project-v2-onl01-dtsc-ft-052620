@@ -1,5 +1,4 @@
 # Sentiment Analysis on Amazon Reviews
-README still work in progress!
 
 ![](https://github.com/ttam37/dsc-capstone-project-v2-onl01-dtsc-ft-052620/blob/master/images/Amazon-5-Star-Review-Illustration.jpg)
 
@@ -28,9 +27,11 @@ In order to perform sentiment analysis, we need to understand the human language
     * source: https://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html
 * **web_scraping + preprocessing.ipynb**: notebook containing all web scraping and preprocessing
 * **eda + feature_engineering.ipynb**: notebook containing all eda and nlp feature engineering
-* **sentiment_analysis_model_1.ipynb**: notebook containing different implemented algorithms and accuracy results for model 1
-* **sentiment_analysis_model_2.ipynb**: notebook containing different implemented algorithms and accuracy results for model 2
-* **archived**: folder of archived files that were used for testing purposes throughout the project
+* **multiclass_classification_model_undersampled.ipynb**: notebook containing multiclass model with undersampled data
+* **multiclass_classification_model_classweights.ipynb**: notebook containing multiclass model with weighted classes
+* **binary_classification_model_undersampled.ipynb**: notebook containing binary classification model with undersampled data
+* **binary_classification_model_classweights.ipynb**: notebook containing binary classification model with weighted classes
+* **sandbox**: folder of archived files that were used for testing purposes throughout the project
 
 
 # Technologies Used
@@ -78,11 +79,14 @@ For each item scraped, I scraped several pages of reviews that include the numbe
 
 # Modeling
 
-## Class Imbalance
+I tried four different models - 2 multiclass classification and 2 binary classification models.
 
-The data shows we have a large disparity between ratings 5.0 and the rest of the ratings. This is a problem because of one class having more weight than the others which lead to poor predictive performance. To resolve this issue, I undersampled each class by using 1200 samples from each class.
+**Multiclass Classification**
+For the multiclass I tried undersampling the data and weighted classes. With the multiclass classification, I was unable to get a high accuracy and most of the predicted values are in ratings 1 and 5, only few for ratings 2,3,4. The model was unable to tell the difference between ratings 1 and 5 from the other class ratings.
 
-![](https://github.com/ttam37/dsc-capstone-project-v2-onl01-dtsc-ft-052620/blob/master/images/count_of_user_rating_undersampled.png)
+**Binary Classification**
+
+For binary classification, I also tried undersampling the data and weighted classes. Because the multiclass classification was unable to result in high accuracy, I tried binary classification by combining the ratings into binary classes. Converting the classes to binary I was able to get higher accuracy.
 
 ## Predictive Accuracy Results
 
